@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "baitap_nhom/1.0.0": {
+        "runtime": {
+          "baitap_nhom.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "baitap_nhom/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

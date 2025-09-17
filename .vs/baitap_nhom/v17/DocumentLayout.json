@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\khangtr\\desktop\\baitap_nhom\\baitap_nhom\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|solutionrelative:baitap_nhom\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\khangtr\\desktop\\baitap_nhom\\baitap_nhom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|solutionrelative:baitap_nhom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\khangtr\\desktop\\baitap_nhom\\baitap_nhom\\usersdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|solutionrelative:baitap_nhom\\usersdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\Program.cs",
+              "RelativeDocumentMoniker": "baitap_nhom\\Program.cs",
+              "ToolTip": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\Program.cs",
+              "RelativeToolTip": "baitap_nhom\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:31:53.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "baitap_nhom\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "baitap_nhom\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:45:43.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersDI.cs",
+              "DocumentMoniker": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\UsersDI.cs",
+              "RelativeDocumentMoniker": "baitap_nhom\\UsersDI.cs",
+              "ToolTip": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\UsersDI.cs",
+              "RelativeToolTip": "baitap_nhom\\UsersDI.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:25:55.619Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
