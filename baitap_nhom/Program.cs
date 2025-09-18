@@ -16,6 +16,9 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
+//Nhat
+app.UseMiddleware<RequestMiddleware>();
+
 //duong
 app.UseMiddleware<UserMiddleware>();
 app.UseHttpsRedirection();
