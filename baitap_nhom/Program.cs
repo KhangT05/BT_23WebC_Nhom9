@@ -5,11 +5,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-//Khang
+// Khang
 builder.Services.AddScoped<UserDIManager>();
+builder.Services.AddScoped<DataLoader>();
 
 var app = builder.Build();
-builder.Services.AddScoped<DataLoader>();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

@@ -6,54 +6,41 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
 
-    <div class="text-center">
-        <h1 class="title">Danh Sách User</h1>
+    <h2 class="title">Danh Sách User</h2>
 
-        <table border="1" style="margin:auto;">
-            <thead>
+    <table border="1" style="margin:auto;">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.Select((u, index) => new { u, index }))
+            {
                 <tr>
-                    <th>STT</th>
-                    <th>Username</th>
-                    <th>Password</th>
-                    <th>Role</th>
+                    <td>@((ViewBag.Page - 1) * ViewBag.PageSize + user.index + 1)</td>
+                    <td>@user.u.Username</td>
+                    <td>@user.u.Password</td>
+                    <td>@user.u.GetRoleName()</td>
                 </tr>
-            </thead>
-            <tbody>
-                @for (int i = 0; i < Model.Count; i++)
-                {
-                    <tr>
-                        <td>@((ViewBag.Page - 1) * ViewBag.PageSize + i + 1)</td>
-                        <td>@Model[i].Username</td>
-                        <td>@Model[i].Password</td>
-                        <td>
-                            @{
-                                string role = Model[i].Role switch
-                                {
-                                    1 => "Member",
-                                    2 => "Note",
-                                    3 => "Leader",
-                                    _ => "Unknown"
-                                };
-                            }
-                            @role
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-
-        <div class="paginate" style="margin-top:20px;">
-            @if (ViewBag.Page > 1)
-            {
-                <a class="btn" href="@Url.Action("Index", new { page = ViewBag.Page - 1 })">Prev</a>
             }
+        </tbody>
+    </table>
 
-            <span>@ViewBag.Page / @ViewBag.TotalPages</span>
+    <div class="paginate" style="margin-top:20px;">
+        @if (ViewBag.Page > 1)
+        {
+            <a class="btn" href="@Url.Action("Index", new { page = ViewBag.Page - 1 })">Prev</a>
+        }
 
-            @if (ViewBag.Page < ViewBag.TotalPages)
-            {
-                <a class="btn" href="@Url.Action("Index", new { page = ViewBag.Page + 1 })">Next</a>
-            }
-        </div>
+        <span>@ViewBag.Page / @ViewBag.TotalPages</span>
+
+        @if (ViewBag.Page < ViewBag.TotalPages)
+        {
+            <a class="btn" href="@Url.Action("Index", new { page = ViewBag.Page + 1 })">Next</a>
+        }
     </div>
 </div>
