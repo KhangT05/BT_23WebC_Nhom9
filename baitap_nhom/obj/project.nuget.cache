@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "X4J8pn2xqA4=",
+  "dgSpecHash": "7cyGKIsWbcs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\baitap_nhom.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\baitap_nhom.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.304\\microsoft.net.sdk.compilers.toolset.9.0.304.nupkg.sha512"
+  ],
   "logs": []
 }

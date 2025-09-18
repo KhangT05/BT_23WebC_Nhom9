@@ -13,10 +13,10 @@
         public UserDIManager() {
             _users = new List<UsersDI>()
             {
-                new UsersDI { ID = "1", Username = "Khang", Password = "member", Role = 1 },
+                new UsersDI { ID = "1", Username = "Khang", Password = "member", Role = 3 },
                 new UsersDI { ID = "2", Username = "Duong", Password = "note", Role = 2 },
-                new UsersDI { ID = "3", Username = "Cuong", Password = "timer", Role = 3 },
-                new UsersDI { ID = "4", Username = "Nhat", Password = "leader", Role = 3 },
+                new UsersDI { ID = "3", Username = "Cuong", Password = "timer", Role = 2 },
+                new UsersDI { ID = "4", Username = "Nhat", Password = "leader", Role = 1 },
                 new UsersDI { ID = "5", Username = "Huy", Password = "member", Role = 3 }
             };
         }

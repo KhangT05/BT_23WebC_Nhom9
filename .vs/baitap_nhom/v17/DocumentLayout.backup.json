@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\",
+  "WorkspaceRootPath": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\khangtr\\desktop\\baitap_nhom\\baitap_nhom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\nguye\\desktop\\bt_23webc_nhom9\\baitap_nhom\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|solutionrelative:baitap_nhom\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\nguye\\desktop\\bt_23webc_nhom9\\baitap_nhom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|solutionrelative:baitap_nhom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\khangtr\\desktop\\baitap_nhom\\baitap_nhom\\usersdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\nguye\\desktop\\bt_23webc_nhom9\\baitap_nhom\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|solutionrelative:baitap_nhom\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\nguye\\desktop\\bt_23webc_nhom9\\baitap_nhom\\usersdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|solutionrelative:baitap_nhom\\usersdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\khangtr\\desktop\\baitap_nhom\\baitap_nhom\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|c:\\users\\nguye\\desktop\\bt_23webc_nhom9\\baitap_nhom\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD67824B-88AA-4DAA-9BFE-9DE6F4D00793}|baitap_nhom\\baitap_nhom.csproj|solutionrelative:baitap_nhom\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,46 +30,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\Program.cs",
-              "RelativeDocumentMoniker": "baitap_nhom\\Program.cs",
-              "ToolTip": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\Program.cs",
-              "RelativeToolTip": "baitap_nhom\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T08:31:53.978Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "baitap_nhom\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "baitap_nhom\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T08:45:43.177Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "baitap_nhom\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "baitap_nhom\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T06:28:37.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "baitap_nhom\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "baitap_nhom\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAC8AAAAAAAAAAADwv04AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-18T06:28:23.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsersDI.cs",
-              "DocumentMoniker": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\UsersDI.cs",
-              "RelativeDocumentMoniker": "baitap_nhom\\UsersDI.cs",
-              "ToolTip": "C:\\Users\\KhangTr\\Desktop\\baitap_nhom\\baitap_nhom\\UsersDI.cs",
-              "RelativeToolTip": "baitap_nhom\\UsersDI.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBIAAABNAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\Program.cs",
+              "RelativeDocumentMoniker": "baitap_nhom\\Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\Program.cs",
+              "RelativeToolTip": "baitap_nhom\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T08:25:55.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T08:31:53.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "baitap_nhom\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "baitap_nhom\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:45:43.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersDI.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\UsersDI.cs",
+              "RelativeDocumentMoniker": "baitap_nhom\\UsersDI.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\BT_23WebC_Nhom9\\baitap_nhom\\UsersDI.cs",
+              "RelativeToolTip": "baitap_nhom\\UsersDI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:25:55.619Z"
             }
           ]
         }

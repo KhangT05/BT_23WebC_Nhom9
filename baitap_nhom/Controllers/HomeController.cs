@@ -15,10 +15,23 @@ namespace baitap_nhom.Controllers
             _usersDI = usersDI;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int page = 1, int pageSize = 2)
         {
             var users = _usersDI.GetAll();
-            return View(users);
+
+            int totalUsers = users.Count;
+            int totalPages = (int)Math.Ceiling((double)totalUsers / pageSize);
+
+            var data = users
+                        .Skip((page - 1) * pageSize)
+                        .Take(pageSize)
+                        .ToList();
+
+            ViewBag.Page = page;
+            ViewBag.TotalPages = totalPages;
+            ViewBag.PageSize = pageSize;
+
+            return View(data);
         }
 
         public IActionResult Privacy()
