@@ -7,31 +7,15 @@ namespace baitap_nhom.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        //Khang
-        private readonly UserDIManager _usersDI;
-        public HomeController(ILogger<HomeController> logger, UserDIManager usersDI)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _usersDI = usersDI;
+            
         }
 
-        public IActionResult Index(int page = 1, int pageSize = 2)
+        public IActionResult Index()
         {
-            var users = _usersDI.GetAll();
-
-            int totalUsers = users.Count;
-            int totalPages = (int)Math.Ceiling((double)totalUsers / pageSize);
-
-            var data = users
-                        .Skip((page - 1) * pageSize)
-                        .Take(pageSize)
-                        .ToList();
-
-            ViewBag.Page = page;
-            ViewBag.TotalPages = totalPages;
-            ViewBag.PageSize = pageSize;
-
-            return View(data);
+            return View();
         }
 
         public IActionResult Privacy()

@@ -9,14 +9,15 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<UserDIManager>();
 
 var app = builder.Build();
-
+builder.Services.AddScoped<DataLoader>();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
-
+//duong
+app.UseMiddleware<UserMiddleware>();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
